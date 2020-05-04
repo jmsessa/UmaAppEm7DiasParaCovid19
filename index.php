@@ -84,7 +84,7 @@ DOENTE?Ligue antes de tudo.</p>
 descanse e durma;
 mantenha o corpo aquecido;
 beba bastante líquido;
-use um umidificador de ar ou tome um banho quente para aliviar a tosse e a dor de garganta..</p>
+use um umidificador de ar ou tome um banho quente para aliviar a tosse e a dor de garganta.</p>
         </div>
 
     </section>
