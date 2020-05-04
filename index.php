@@ -86,13 +86,7 @@ mantenha o corpo aquecido;
 beba bastante líquido;
 use um umidificador de ar ou tome um banho quente para aliviar a tosse e a dor de garganta..</p>
         </div>
-<!--
-        <div>
-            <img src="img/coracao.png" alt="Coração">
-            <h3>Feito com Amor</h3>
-            <p>É melhor fazer seus sites com amor hoje em dia!</p>
-        </div>
--->
+
     </section>
 
     <section id="medidas">
