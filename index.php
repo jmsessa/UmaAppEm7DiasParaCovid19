@@ -57,7 +57,7 @@ include 'pegar_dados.php';
             <button type="button" class="btn btn-outline-warning btn-lg">ACTIVOS</button>
             <h3><?php 
 
-             echo ""; ?></h3>
+              ?></h3>
             
         </div>
         <div>
@@ -142,7 +142,7 @@ use um umidificador de ar ou tome um banho quente para aliviar a tosse e a dor d
     </section>
 
     <footer>
-        <p>Criado por JMS.</p>
+        <p>Desenvolvido por JMS.</p>
     </footer>
     
 

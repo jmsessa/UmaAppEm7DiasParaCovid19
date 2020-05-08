@@ -30,20 +30,20 @@ $act4= explode("</span>",$act3[0]);
 
 //echo"RECUPERADOS".$act4[0];
 
-echo $recuperados=$act4[0];
+ $recuperados=$act4[0];
 
 
 
-echo "ATIVOS: ".$ativos_int=$confirmados;
+/*echo "ATIVOS: ".$ativos_int=$confirmados;
 
 $pegar_Morte=$mortos;
 $pegar_recuperado=$recuperados;
 $ativos_hospital = $pegar_Morte + $pegar_recuperado;
 $no_hospital=$ativos_int-$ativos_hospital;
 
-echo "ATTTIVOS".$ativos_int;
-echo "string".$pegar_Morte;
-echo "ATIVO HOSPITAL".$ativos_hospital;
+//echo "ATTTIVOS".$ativos_int;
+//echo "string".$pegar_Morte;
+//echo "ATIVO HOSPITAL".$ativos_hospital;
 
 
 //echo $act2[1];
