@@ -142,7 +142,7 @@ use um umidificador de ar ou tome um banho quente para aliviar a tosse e a dor d
     </section>
 
     <footer>
-        <p>Desenvolvido por JMS.</p>
+        <p>Criado por JMS.</p>
     </footer>
     
 
