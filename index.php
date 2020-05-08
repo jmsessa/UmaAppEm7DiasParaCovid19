@@ -1,3 +1,9 @@
+<?php 
+
+include 'pegar_dados.php'; 
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
    
     <link rel="icon" href="img/logo_covid.png">
 </head>
@@ -30,19 +37,42 @@
         <a href="#sobre" class="botao">VER MAIS</a>
     </header>
 
+<!--
     <section id="dados">
         <h2>DADOS ATUAIS</h2>
         <p>Veja os últimos dados sobre o novo país.</p>
 
-    <div id="servicos">
-        <a href="#" class="botao">CONFIRMADOS</a>
-        <a href="#" class="botao">ACTIVOS</a>
-        <a href="#" class="botao">RECUPERADOS</a>
-        <a href="#contato" class="botao">MORTOS</a>
-    </div>
-        
-        
     </section>
+-->
+    <section id="servicos">
+        <h2>DADOS EM TEMPO REAL</h2>
+
+        <div>
+            <button type="button" class="btn btn-outline-primary btn-lg">CONFIRMADOS</button>
+            <h3><?php echo $confirmados; ?></h3>
+            
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-outline-warning btn-lg">ACTIVOS</button>
+            <h3><?php 
+
+             echo ""; ?></h3>
+            
+        </div>
+        <div>
+            <button type="button" class="btn btn-outline-success btn-lg ">RECUPERADOS</button>
+            <h3><?php echo $recuperados; ?></h3>
+           
+        </div>
+        <div>
+            <button type="button" class="btn btn-outline-danger btn-lg">MORTOS</button>
+            <h3><?php echo $mortos; ?></h3>
+           
+        </div>
+
+    </section>
+
 
     <section id="servicos">
         <h2>VISÃO GERAL</h2>
@@ -116,7 +146,9 @@ use um umidificador de ar ou tome um banho quente para aliviar a tosse e a dor d
     </footer>
     
 
-
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
     
 
 

@@ -102,11 +102,10 @@ dados
 */
 
 #dados {
+   padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 0 20px 20px;
     background-color: #8f3faf;
     color: #f1f1f1;
 }
@@ -119,6 +118,15 @@ dados
 #dados .botao {
     background-color: #f1f1f1;
     color: #4d4d4d;
+}
+
+#dados div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;   
 }
 
 /*
@@ -139,6 +147,18 @@ SERVIÇOS
     text-align: center;
     margin-top: 30px;
 }
+
+
+
+#dados div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
 
 /*
 medidas
@@ -243,7 +263,25 @@ MEDIA QUERIES
         margin: 0 auto;
     }
 
+    #dados{
+         flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    }
+
     #servicos a {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+
+    #dados a {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -256,8 +294,19 @@ MEDIA QUERIES
         text-align: center;
         width: 100%;
     }
+
+     #dados h2 {
+        text-align: center;
+        width: 100%;
+    }
     
     #servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+#dados div {
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;
